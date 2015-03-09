@@ -18,22 +18,29 @@ body {
     padding-top:0px;
 
 }
+ul {
+padding: 15px;
+   margin:auto;
+}
 .menu{
 
-    width: 430px;
+    width: 440px;
     color: #B0B0B0;
-    border-radius:10px;
+    border-radius:6px;
     font-family: 'Montserrat', sans-serif;
     background-color: #fff;
-    
+    height: auto;
+    padding: 0px;
 }
 
 
 .menu li {
     display: inline-block;
-    h height: 35px;
-    line-height: 50px;
-    border-left: 1px solid #CC9966;
+    height:inherit;
+    border-left: 1px solid #FFEBCD;
+    margin-bottom:1px;
+    padding: 2px
+    
     
 }
 .menu ul li:first-child{
@@ -41,7 +48,7 @@ body {
 }
     
 .active {
-    background-color: #FFFFCC;
+    background-color: #FFE4C4;
     border-bottom-color: 
 }
 .selected {
