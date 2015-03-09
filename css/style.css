@@ -33,11 +33,12 @@ ul{
  ul li {
     float: left;
     border-left: 1px solid #FFEBCD;
-    height: 50px;
+    height: 39px;
     width: 159px;
     text-align: center;
     margin-bottom: 0px;
     list-style: none;
+    padding-top: 12px;
     
     
 }
