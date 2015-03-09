@@ -1,0 +1,49 @@
+body {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    text-align: center;
+    margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 34px;
+    padding-top: 18px;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+.header h3 {
+    font-size: 16px;
+    padding-top:0px;
+
+}
+.menu{
+
+    width: 430px;
+    color: #B0B0B0;
+    border-radius:10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    
+}
+
+
+.menu li {
+    display: inline-block;
+    h height: 35px;
+    line-height: 50px;
+    border-left: 1px solid #CC9966;
+    
+}
+.menu ul li:first-child{
+  border-left: none;
+}
+    
+.active {
+    background-color: #FFFFCC;
+    border-bottom-color: 
+}
+.selected {
+border-bottom: 2px solid #339933; 
+}
