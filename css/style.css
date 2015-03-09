@@ -25,12 +25,13 @@ ul{
     font-family: 'Montserrat', sans-serif;
     background-color: #fff;
     padding: 0px;
-    width: 652px;
+    width: 639px;
+    height: 52px;
 }
 
 
  ul li {
-    display: inline-block;
+    float: left;
     border-left: 1px solid #FFEBCD;
     height: 50px;
     width: 159px;
@@ -42,7 +43,15 @@ ul{
 ul li:first-child{
   border-left: none;
 }
-    
+  
+#first {
+ border-top-left-radius: 6px;
+ border-bottom-left-radius: 6px;
+}
+#last {
+ border-top-right-radius: 6px;
+    border-bottom-right-radius:6px;
+}
 .active {
     background-color: #FFE4C4;
     border-bottom-color: 
