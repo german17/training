@@ -26,7 +26,7 @@ ul{
     background-color: #fff;
     padding: 0px;
     width: 959px;
-    height: 67px;
+    height: 65px;
 }
 
 
@@ -58,4 +58,5 @@ line-height: 65px;
 }
 .selected {
 border-bottom: 2px solid #4daf7b; 
+height:63px;
 }
