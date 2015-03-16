@@ -59,7 +59,11 @@ left: 122px;
 position:relative;
 top: -44px;
 width:11px; 
-    
+}
+.menu ul img{
+position: relative;
+left:-10px
+
 }
 .menu .active {
     background-color: #f8f3f0; 
