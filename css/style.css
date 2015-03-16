@@ -51,7 +51,16 @@ body {
 .menu ul li span {
 line-height: 65px;
 }
-
+#number_circle {
+background-color:#e55e3a;
+border-radius: 50%;
+height: 13px;
+left: 124px;  
+position:relative;
+top: -44px;
+width:13px; 
+    
+}
 .menu .active {
     background-color: #f8f3f0; 
 }
